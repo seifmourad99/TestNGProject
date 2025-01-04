@@ -11,7 +11,7 @@ public class Scenario1Test extends BaseSteps {
     @org.testng.annotations.Test
     public void testvalidCredential() throws InterruptedException {
         SignupPage signupPage = homePage.clickonsignuplink();
-        signupPage.insertUsername("seif1223");
+        signupPage.insertUsername("seif12257");
         signupPage.insertPassword("12341234");
         Thread.sleep(4000);
         signupPage.clickSignupButton();
